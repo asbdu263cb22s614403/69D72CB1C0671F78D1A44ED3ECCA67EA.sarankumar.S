@@ -1,7 +1,13 @@
-# Python Program to Check Leap Year
- 
-year=int(input("Enter year to be checked:"))
-if(year%4==0 and year%100!=0 or year%400==0):
-    print("The year is a leap year!")
-else:
-    print("The year isn't a leap year!")
+class player:
+  def play(self):
+     print("saran palying for free fire.")
+class Alok(player):
+  def play(self):
+      print("alok is a active skill")
+class Kelly(player):
+  def play(self):
+      print("kelly is skill in run fast")
+alok=Alok()
+kelly=Kelly()
+alok.play()
+kelly.play()
